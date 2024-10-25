@@ -186,7 +186,7 @@ export default function Footer() {
       <hr className="py-[.5px] bg-gray-300 mt-8" />
 
       <div className="w-full py-5 mt-8">
-        <div className="w-[80%] mx-auto flex flex-col sm:flex-row justify-between items-center sm:gap-8 gap-y-10 flex-wrap ">
+        <div className="w-[94%] sm:w-[80%]  mx-auto flex flex-col sm:flex-row justify-between items-center sm:gap-8 gap-y-10 flex-wrap ">
           <h1 className="font-semibold text-lg">Travelsy</h1>
 
           <div className="flex flex-col sm:flex-row  justify-between items-center sm:gap-5 gap-y-8 flex-wrap">
