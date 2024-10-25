@@ -59,7 +59,7 @@ export default function Testimonials() {
                 <h1 className="text-[1.25rem] font-bold font-serif mt-4">
                   {testimonial.title}
                 </h1>
-                <p className="text-md md:text-[1.055rem]">
+                <p className="text-md md:text-[1rem]">
                   {testimonial.content}
                 </p>
               </div>
