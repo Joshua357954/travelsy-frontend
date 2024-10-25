@@ -59,7 +59,7 @@ export default function Testimonials() {
                 <h1 className="text-lg font-bold font-serif mt-4">
                   {testimonial.title}
                 </h1>
-                <p className="text-sm md:text-base">{testimonial.content}</p>
+                <p className="text-sm md:text-md">{testimonial.content}</p>
               </div>
               <div className="flex items-center gap-4">
                 <div className="bg-gray-500 w-9 h-9 rounded-full">
