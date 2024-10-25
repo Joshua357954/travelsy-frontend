@@ -177,7 +177,7 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row  justify-between items-center sm:gap-5 gap-y-8 flex-wrap">
             {/* Credit Images */}
-            <div className="flex gap-6 items-center ">
+            <div className="flex sm:gap-6 gap-5 items-center w-full">
               <img src="/mpesa.png" />
               <img src="/discover.png" />
               <img src="/visa.png" />
