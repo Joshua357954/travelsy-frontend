@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center py-6 sm:px-10 px-5">
+    <nav className="flex justify-between items-center py-6 sm:px-10 px-4 ">
       <h2 className="font-roboto font-regular text-lg  pr-2">Travelsy</h2>
 
       {/* Hamburger menu for mobile */}

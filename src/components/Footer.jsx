@@ -12,7 +12,7 @@ export default function Footer() {
               <h4 class="text-lg font-bold mb-2 text-gray-700">
                 Need Travelsy Help?
               </h4>
-              <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Company
@@ -34,7 +34,7 @@ export default function Footer() {
             {/* <!-- Column 2 --> */}
             <div>
               <h4 class="text-lg font-bold mb-2 text-gray-700">Quick Links</h4>
-              <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Mailing List
@@ -59,7 +59,7 @@ export default function Footer() {
                 <h4 class="text-lg font-bold mb-2 text-gray-700">
                   Your Account
                 </h4>
-                <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+                <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
                   <li>
                     <a href="#" class="hover:underline">
                       Sign Up for our mailing lists
@@ -77,7 +77,7 @@ export default function Footer() {
             {/* <!-- Column 4 --> */}
             <div>
               <h4 class="text-lg font-bold mb-2 text-gray-700">Careers</h4>
-              <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Rewards Program
@@ -105,7 +105,7 @@ export default function Footer() {
             {/* <!-- Column 4 --> */}
             <ul className="w-full">
               <h4 class="text-lg font-bold mb-2 text-gray-700">Mailing List</h4>
-              <p className=" text-gray-600 text-[1.02rem] leading-7">
+              <p className=" text-gray-600 sm:text-[1.02rem] text-[.8rem] leading-7">
                 Signup for our mailing list and get the latest offers straight
                 to your inbox enjoy promotional offers
               </p>
@@ -126,7 +126,7 @@ export default function Footer() {
             {/* <!-- Column 5 --> */}
             <div>
               <h4 class="text-lg font-bold mb-2 text-gray-700">Terms Of Use</h4>
-              <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Partners
@@ -155,7 +155,7 @@ export default function Footer() {
               <h4 class="text-lg font-bold mb-2 text-gray-700">
                 Hire Equipment
               </h4>
-              <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Your Email
@@ -191,26 +191,26 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row  justify-between items-center sm:gap-5 gap-y-8 flex-wrap">
             {/* Credit Images */}
-            <div className="flex sm:gap-6 gap-4 items-center w-full">
+            <div className="flex sm:gap-6 gap-4 items-center w-full sm:w-auto">
               <img
                 src="/mpesa.png"
-                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+                className="w-[80%] h-[80%] sm:w-auto sm:h-auto"
               />
               <img
                 src="/discover.png"
-                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+                className="w-[80%] h-[80%] sm:w-auto sm:h-auto"
               />
               <img
                 src="/visa.png"
-                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+                className="w-[80%] h-[80%] sm:w-auto sm:h-auto"
               />
               <img
                 src="/export.png"
-                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+                className="w-[80%] h-[80%] sm:w-auto sm:h-auto"
               />
               <img
                 src="/mastercard.png"
-                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+                className="w-[80%] h-[80%] sm:w-auto sm:h-auto"
               />
             </div>
             <div className="flex gap-2 items-center p-2 border border-gray-700 w-fit">
