@@ -27,7 +27,7 @@ function App() {
             Experience
           </h1>
 
-          <p className="mt-6 text-gray-600 text-[1.07rem]">
+          <p className="mt-6 text-gray-600 text-[.99rem]">
             To find the best experiences. we will ask you a few questions and{" "}
             <br /> show you experiences based on your prefrence
           </p>
