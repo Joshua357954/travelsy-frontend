@@ -9,7 +9,9 @@ export default function Footer() {
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-6 ">
             {/* <!-- Column 1 --> */}
             <div>
-              <h4 class="text-lg font-bold mb-2 text-gray-700">Need Travelsy Help?</h4>
+              <h4 class="text-lg font-bold mb-2 text-gray-700">
+                Need Travelsy Help?
+              </h4>
               <ul class="space-y-2 text-gray-600 text-[1.02rem]">
                 <li>
                   <a href="#" class="hover:underline">
@@ -53,21 +55,23 @@ export default function Footer() {
 
             {/* <!-- Column 3 --> */}
             <template>
-            <div>
-              <h4 class="text-lg font-bold mb-2 text-gray-700">Your Account</h4>
-              <ul class="space-y-2 text-gray-600 text-[1.02rem]">
-                <li>
-                  <a href="#" class="hover:underline">
-                    Sign Up for our mailing lists
-                  </a>
-                </li>
-                <li>
-                  <a href="tel:+254716909815" class="hover:underline">
-                    Call Us: +254 716909 815
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <div>
+                <h4 class="text-lg font-bold mb-2 text-gray-700">
+                  Your Account
+                </h4>
+                <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+                  <li>
+                    <a href="#" class="hover:underline">
+                      Sign Up for our mailing lists
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+254716909815" class="hover:underline">
+                      Call Us: +254 716909 815
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </template>
 
             {/* <!-- Column 4 --> */}
@@ -86,7 +90,13 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="mailto:info@travelsy.com" class="hover:underline">
-                    Email Us: <a href="mailto:info@travelsy.com" className="text-blue-400">info@travelsy.com</a>
+                    Email Us:{" "}
+                    <a
+                      href="mailto:info@travelsy.com"
+                      className="text-blue-400"
+                    >
+                      info@travelsy.com
+                    </a>
                   </a>
                 </li>
               </ul>
@@ -104,7 +114,10 @@ export default function Footer() {
                   placeholder="Your Email"
                   className="border border-gray-400 p-[.65rem] w-full"
                 />
-                <button type="submit" className="bg-orange-600 px-2 py-1 text-white">
+                <button
+                  type="submit"
+                  className="bg-orange-600 px-2 py-1 text-white"
+                >
                   Subscribe
                 </button>
               </form>
@@ -136,37 +149,38 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-          
-          {/* <!-- Second row: Single Link Category --> */}
-          <div class="">
-            <h4 class="text-lg font-bold mb-2 text-gray-700">Hire Equipment</h4>
-            <ul class="space-y-2 text-gray-600 text-[1.02rem]">
-              <li>
-                <a href="#" class="hover:underline">
-                  Your Email
-                </a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">
-                  Subscribe
-                </a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">
-                  Give Us Feedback
-                </a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-            </ul>
+
+            {/* <!-- Second row: Single Link Category --> */}
+            <div class="">
+              <h4 class="text-lg font-bold mb-2 text-gray-700">
+                Hire Equipment
+              </h4>
+              <ul class="space-y-2 text-gray-600 text-[1.02rem]">
+                <li>
+                  <a href="#" class="hover:underline">
+                    Your Email
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">
+                    Subscribe
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">
+                    Give Us Feedback
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-
 
       {/* Second Section */}
       <hr className="py-[.5px] bg-gray-300 mt-8" />
@@ -177,15 +191,30 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row  justify-between items-center sm:gap-5 gap-y-8 flex-wrap">
             {/* Credit Images */}
-            <div className="flex sm:gap-6 gap-5 items-center w-full">
-              <img src="/mpesa.png" />
-              <img src="/discover.png" />
-              <img src="/visa.png" />
-              <img src="/export.png" />
-              <img src="/mastercard.png" />
+            <div className="flex sm:gap-6 gap-4 items-center w-full">
+              <img
+                src="/mpesa.png"
+                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+              />
+              <img
+                src="/discover.png"
+                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+              />
+              <img
+                src="/visa.png"
+                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+              />
+              <img
+                src="/export.png"
+                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+              />
+              <img
+                src="/mastercard.png"
+                className="w-[80%] h-[80%] sm:w-[100%] sm:h-[100%]"
+              />
             </div>
             <div className="flex gap-2 items-center p-2 border border-gray-700 w-fit">
-              <img src="/us-flag.png" className="w-4 h-3"/>
+              <img src="/us-flag.png" className="w-4 h-3" />
               <p>English (United States)</p>
               <PiCaretCircleDownThin />
             </div>
@@ -201,7 +230,8 @@ export default function Footer() {
       <hr className="py-[.5px] bg-gray-300 mt-8" />
       <div className="flex flex-col gap-6 sm:flex-row justify-between w-[80%] mx-auto mt-8">
         <p>
-          Copyright © 2019 <b className="text-gray-700">Travelsy Ltd.</b> All rights reserved
+          Copyright © 2019 <b className="text-gray-700">Travelsy Ltd.</b> All
+          rights reserved
         </p>
         <p>Made in Kenya by Ralak</p>
       </div>
