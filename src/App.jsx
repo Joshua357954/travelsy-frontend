@@ -6,7 +6,7 @@ import "./App.css";
 import Grid_Select from "./components/Grid_Select";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,7 +15,7 @@ function App() {
     <>
       {/* NavBar */}
       <Navbar />
-      
+
       {/* Line */}
       <hr className="bg-gray-500 py-[.3px]" />
 
@@ -33,8 +33,10 @@ function App() {
           </p>
 
           <div>
-            <p className="text-gray-800 mt-10 font-semibold">How much time do you have?</p>
-            
+            <p className="text-gray-800 mt-10 font-semibold">
+              How much time do you have?
+            </p>
+
             <ul className="flex items-center text-gray-700 gap-x-6 gap-y-5 mt-4 flex-wrap">
               <li className="">
                 <input type="checkbox" className="mr-1" /> A weekend
