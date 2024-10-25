@@ -4,7 +4,7 @@ import { PiCaretCircleDownThin } from "react-icons/pi";
 export default function Footer() {
   return (
     <footer class="bg-white py-8">
-      <div className="w-[80%] mx-auto">
+      <div className="sm:w-[80%] w-[90%]  mx-auto">
         <div class="container mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-6 ">
             {/* <!-- Column 1 --> */}
@@ -203,7 +203,7 @@ export default function Footer() {
         <p>
           Copyright © 2019 <b className="text-gray-700">Travelsy Ltd.</b> All rights reserved
         </p>
-        <address>Made in Kenya by Ralak</address>
+        <p>Made in Kenya by Ralak</p>
       </div>
     </footer>
   );

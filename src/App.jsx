@@ -20,7 +20,7 @@ function App() {
       <hr className="bg-gray-500 py-[.3px]" />
 
       {/* Main Content */}
-      <main className="w-[80%] mx-auto">
+      <main className="sm:w-[80%] w-[90%] mx-auto">
         <header className="pt-20">
           <h1 className="font-serif sm:text-6xl text-5xl  font-medium">
             Find An <br />

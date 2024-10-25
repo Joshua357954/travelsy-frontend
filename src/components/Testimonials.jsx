@@ -29,7 +29,7 @@ const testimonialsData = [
 export default function Testimonials() {
   return (
     <section className="mt-16 bg-gray-100 py-16 md:py-32 w-full ">
-      <div className="sm:w- w-[80%] mx-auto flex items-center justify-between flex-col sm:flex-row">
+      <div className=" sm:w-[80%] w-[90%] mx-auto flex items-center justify-between flex-col sm:flex-row">
         
         {/* Testimonial Header */}
         <div className="flex flex-col items-center gap-5 md:gap-9 text-center sm:text-left   min-w-80 sm:items-start ">

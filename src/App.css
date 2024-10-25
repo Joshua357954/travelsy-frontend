@@ -40,3 +40,7 @@
 .read-the-docs {
   color: #888;
 } */
+
+.text-outline {
+  -webkit-text-stroke: .15px #000000
+}
