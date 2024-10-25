@@ -30,11 +30,11 @@ export default function Testimonials() {
   return (
     <section className="mt-16 bg-gray-100 py-16 md:py-32 w-full ">
       <div className=" sm:w-[80%] w-[90%] mx-auto flex items-center justify-between flex-col sm:flex-row">
-        
         {/* Testimonial Header */}
         <div className="flex flex-col items-center gap-5 md:gap-9 text-center sm:text-left   min-w-80 sm:items-start ">
-          
-          <p className="uppercase text-gray-500 text-sm text-center">Testimonials</p>
+          <p className="uppercase text-gray-500 text-sm text-center">
+            Testimonials
+          </p>
 
           <h1 className="font-serif font-semibold text-2xl md:text-3xl text-gray-800 leading-snug">
             What <br /> customers <br />{" "}
@@ -59,7 +59,9 @@ export default function Testimonials() {
                 <h1 className="text-[1.25rem] font-bold font-serif mt-4">
                   {testimonial.title}
                 </h1>
-                <p className="text-md md:text-lg">{testimonial.content}</p>
+                <p className="text-md md:text-[1.055rem]">
+                  {testimonial.content}
+                </p>
               </div>
               <div className="flex items-center gap-4">
                 <div className="bg-gray-500 w-9 h-9 rounded-full">
