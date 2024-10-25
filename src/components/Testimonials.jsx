@@ -56,10 +56,10 @@ export default function Testimonials() {
               className="snap-start flex-shrink-0 w-80 md:w-80 flex flex-col justify-between bg-white border-gray-400 p-5 rounded h-auto md:h-80 gap-5"
             >
               <div className="flex flex-col gap-2">
-                <h1 className="text-lg font-bold font-serif mt-4">
+                <h1 className="text-[1.25rem] font-bold font-serif mt-4">
                   {testimonial.title}
                 </h1>
-                <p className="text-sm md:text-md">{testimonial.content}</p>
+                <p className="text-md md:text-lg">{testimonial.content}</p>
               </div>
               <div className="flex items-center gap-4">
                 <div className="bg-gray-500 w-9 h-9 rounded-full">
