@@ -228,7 +228,7 @@ export default function Footer() {
       </div>
 
       <hr className="py-[.5px] bg-gray-300 mt-8" />
-      <div className="flex flex-col gap-7 sm:flex-row justify-between w-[80%] sm:w-[90%] mx-auto mt-8">
+      <div className="flex flex-col gap-7 sm:flex-row justify-between sm:w-[80%] w-[90%] mx-auto mt-8">
         <p>
           Copyright © 2019 <b className="text-gray-700">Travelsy Ltd.</b> All
           rights reserved
