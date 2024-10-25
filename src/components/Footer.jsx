@@ -12,7 +12,7 @@ export default function Footer() {
               <h4 class="text-lg font-bold mb-2 text-gray-700">
                 Need Travelsy Help?
               </h4>
-              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.9rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Company
@@ -34,7 +34,7 @@ export default function Footer() {
             {/* <!-- Column 2 --> */}
             <div>
               <h4 class="text-lg font-bold mb-2 text-gray-700">Quick Links</h4>
-              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.9rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Mailing List
@@ -59,7 +59,7 @@ export default function Footer() {
                 <h4 class="text-lg font-bold mb-2 text-gray-700">
                   Your Account
                 </h4>
-                <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
+                <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.9rem]">
                   <li>
                     <a href="#" class="hover:underline">
                       Sign Up for our mailing lists
@@ -77,7 +77,7 @@ export default function Footer() {
             {/* <!-- Column 4 --> */}
             <div>
               <h4 class="text-lg font-bold mb-2 text-gray-700">Careers</h4>
-              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.9rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Rewards Program
@@ -105,7 +105,7 @@ export default function Footer() {
             {/* <!-- Column 4 --> */}
             <ul className="w-full">
               <h4 class="text-lg font-bold mb-2 text-gray-700">Mailing List</h4>
-              <p className=" text-gray-600 sm:text-[1.02rem] text-[.8rem] leading-7">
+              <p className=" text-gray-600 sm:text-[1.02rem] text-[.9rem] leading-7">
                 Signup for our mailing list and get the latest offers straight
                 to your inbox enjoy promotional offers
               </p>
@@ -126,7 +126,7 @@ export default function Footer() {
             {/* <!-- Column 5 --> */}
             <div>
               <h4 class="text-lg font-bold mb-2 text-gray-700">Terms Of Use</h4>
-              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.9rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Partners
@@ -155,7 +155,7 @@ export default function Footer() {
               <h4 class="text-lg font-bold mb-2 text-gray-700">
                 Hire Equipment
               </h4>
-              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.8rem]">
+              <ul class="space-y-2 text-gray-600 sm:text-[1.02rem] text-[.9rem]">
                 <li>
                   <a href="#" class="hover:underline">
                     Your Email
@@ -228,7 +228,7 @@ export default function Footer() {
       </div>
 
       <hr className="py-[.5px] bg-gray-300 mt-8" />
-      <div className="flex flex-col gap-6 sm:flex-row justify-between w-[80%] mx-auto mt-8">
+      <div className="flex flex-col gap-7 sm:flex-row justify-between w-[90%] mx-auto mt-8">
         <p>
           Copyright © 2019 <b className="text-gray-700">Travelsy Ltd.</b> All
           rights reserved
